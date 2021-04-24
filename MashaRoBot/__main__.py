@@ -362,7 +362,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Masha's licensed under the GNU General Public License v3.0_
                  Here is the [💾Repository](https://github.com/AlphaTp/MashaRoBot).
-                 If you have any question about Masha, let us know at @WasteBots.""",
+                 If you have any question about Masha, let us know at @.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
