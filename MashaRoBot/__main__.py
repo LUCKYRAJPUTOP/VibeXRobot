@@ -73,7 +73,10 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """
+PM_START_TEXT = """ 
+START_IMG = os.environ.get('START_IMG', None)
+if START_IMG is None: 
+     img = https://telegra.ph/file/34044974cd5c6be5f9346.jpg.
 `Hellow My name is` *𝙂𝙤𝙙𝙯𝙞𝙡𝙡𝙖*
 `I'm Powerfull group management bot, here to help you manage your groups!.` 
 """
